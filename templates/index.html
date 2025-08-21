@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pneumonia Detection</title>
+</head>
+<body style="text-align:center; font-family: Arial;">
+    <h1>Pneumonia Detection using CNN Model</h1>
+    <form action="/predict" method="post" enctype="multipart/form-data">
+        <p>Select a Chest X-ray image:</p>
+        <input type="file" name="file" accept="image/*" required>
+        <br><br>
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
